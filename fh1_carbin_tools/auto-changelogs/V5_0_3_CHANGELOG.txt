@@ -1,0 +1,14 @@
+FH1 CARBIN Tools v5.0.3 — Experimental LOD1–5 Native Shader Export
+
+- Enabled general native shader-section insertion for exterior LOD1–5 records.
+- Validated native section count field at first section offset - 77 against
+  all parsed stock Corrado and SLS AMG exterior records.
+- Increment count after adding one or more new shader sections.
+- Compute insertion offset from the last native section header and index width.
+- Preserve donor LOD ID and guard against crossing component boundaries.
+- Retain existing section, component, and vertex-count post-export checks.
+- No shader names are hardcoded; works with valid assigned native shader names.
+- LOD0 exporter, shader catalogue, and texture bindings unchanged.
+
+CAUTION: Blender and game runtime tests have not been performed. Export a
+copy and inspect in Forza Studio before loading in game.

@@ -1,0 +1,5 @@
+Dev73 (v0.4.73) — Badge alpha blending
+- Route badge diffuse/atlas image Alpha to Principled BSDF Alpha after template reconstruction.
+- Enable Blender Alpha Blend for badge materials.
+- Preserve badge image nodes and use opaque alpha if source image is unavailable.
+- No changes to other shaders, wheel geometry, UVs or exporters.

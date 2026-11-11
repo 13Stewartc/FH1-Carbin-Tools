@@ -1,0 +1,9 @@
+Dev72 / v0.4.72 — Wheel materials for wheels embedded in car LOD1–LOD5
+- Reuse the existing wheel material preview builder for wheel components in body CARBIN imports.
+- Scope processing to objects belonging to the imported CARBIN via collection provenance.
+- Preserve standalone wheel behavior and keep car-wheel material datablocks separate.
+- Search car folder for wheel.xds and wheel0.xds–wheel3.xds, retaining texture nodes when missing.
+- Use shared tireA0.xds when available; otherwise preserve the existing tire PBR fallback.
+- Wheel atlas fallback: metallic 1, specular 0.5, roughness 0.320.
+- Blur frame fallback: transparent, with scene-wide disabled-by-default controls.
+- No changes to geometry, UVs, normals, exporters or non-wheel materials.

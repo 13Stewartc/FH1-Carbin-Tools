@@ -1,0 +1,5 @@
+Dev97 Added Geometry Guard (0.4.97)
+- Compare post-insertion component vertex counts against the normal exported CARBIN, not the unmodified source.
+- Permit expected added plate geometry while detecting unexpected changes caused by shader insertion.
+- Preserve Dev96 component order and section checks, normal exports, Blender nodes, and .carbin extension fix.
+- Native shader insertion remains experimental; Forza Studio acceptance is unverified.

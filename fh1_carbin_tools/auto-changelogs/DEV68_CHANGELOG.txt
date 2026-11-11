@@ -1,0 +1,5 @@
+Dev68 / v0.4.68 - Wheel shader controls
+- wheel_LOD0.xds alpha -> Principled Specular for wheel LOD0 material sections when texture is found. wheel.xds alpha is not connected to Specular.
+- One scene-wide Wheel Blur Layer frame selector (wheel0-wheel3) and Disable toggle for all blur material instances.
+- Disable forces blur Alpha 0; missing selected blur texture also forces Alpha 0.
+- Existing texture nodes retained and geometry, UV, normal, exporter paths unchanged.

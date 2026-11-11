@@ -1,0 +1,5 @@
+Dev81 | v0.4.81 | FXOBJ Research
+- Updated installed build label to actual Dev81 version.
+- Updated add-on name, internal version, audit labels, registration log.
+- Preserved geometry exporters and material behavior unchanged.
+- Research findings included in FXOBJ_RESEARCH_DEV81.txt; no speculative sampler bindings assigned.

@@ -1,0 +1,2 @@
+Dev61: Restore wheel LOD0 secondary packed position offset +4 accidentally reverted in Dev60. Retain Dev60 UV/normal offset changes.
+Dev58 v0.4.58: Wheel LOD0 ONLY: read secondary 28-byte vertex pool (Forza Studio q.d), not primary q.g; apply independent pool bounds remapping and use secondary UVs/normals. All other LODs and import/export code unchanged.

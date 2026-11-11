@@ -1,0 +1,6 @@
+Dev94 Shader Export Target Fix | 0.4.94
+- Match LOD0 component source paths using normalized paths and include selected tracked mesh.
+- Fail loudly when a custom shader material cannot be associated with its source component.
+- Fail export rather than silently writing donor shader if no custom target faces are detected.
+- Preserve material node trees and existing native shader export experiment.
+- Requires Blender and Forza Studio validation; does not claim successful new section export.

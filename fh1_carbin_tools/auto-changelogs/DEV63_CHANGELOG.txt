@@ -1,0 +1,7 @@
+Dev63 (0.4.63) — S2000 wheel LOD0 outer_rim and wheel_black UV0 calibration.
+
+Based on exact affine fits to Forza Studio HON_S2000_WHEEL_LOD0.obj and 7145-record secondary vertex buffer.
+outer_rim: U = 0.60015260 + 0.02589260 * raw_U; V = 0.32660100 - 0.15864350 * raw_V.
+wheel_black: U = 0.84029590 + 0.15081780 * raw_U; V = 0.03303200 - 0.02539736 * raw_V.
+Existing inner_rim calibration retained; rim unchanged.
+Applies only to matching S2000 version-3 wheel LOD0 signature. No changes to geometry, normals, UV1, other LODs, body/cockpit, exporters, or material definitions.

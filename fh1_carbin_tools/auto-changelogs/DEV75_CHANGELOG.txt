@@ -1,0 +1,5 @@
+Dev75 (0.4.75) — LOD1-5 headlight materials
+- fullbeam and oldhead Base Color use the vehicle lights.xds atlas rather than NoDamage.
+- oldhead routes Lights alpha to Principled Specular (fallback 0.5 if missing).
+- Preserve missing-texture sampler nodes and existing non-headlight shader behaviour.
+- Only applies these post-template overrides to LOD1-5.

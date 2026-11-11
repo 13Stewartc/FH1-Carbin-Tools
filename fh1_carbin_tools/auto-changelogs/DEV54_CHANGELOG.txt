@@ -1,0 +1,2 @@
+Dev61: Restore wheel LOD0 secondary packed position offset +4 accidentally reverted in Dev60. Retain Dev60 UV/normal offset changes.
+Dev54 (0.4.54): carbon fiber reference embedded; tail_light uses taillight2s graph; glass_texture.xds sampler binding; N-menu order; emblem alpha; race kit red roughness/specular; interior nodamage atlas and values.

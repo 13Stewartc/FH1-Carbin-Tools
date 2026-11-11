@@ -1,0 +1,5 @@
+Dev82 | v0.4.82 | Targeted Shader Usage
+- Native material audit now shows targeted technique usage by supplied CARBIN file.
+- Explicitly separates parsed material references from unverified sampler bindings.
+- Updated addon name, bl_info version, Installed build label and archive name.
+- Added two-car research report; no geometry/exporter changes.

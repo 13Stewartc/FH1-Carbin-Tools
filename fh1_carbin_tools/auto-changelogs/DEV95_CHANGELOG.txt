@@ -1,0 +1,5 @@
+Dev95 CARBIN Extension Fix | 0.4.95
+- Export Model and Export Joined Geometry now use .carbin as their Blender ExportHelper filename extension.
+- Export execution enforces .carbin even if an extensionless filepath was supplied.
+- Corrects installed-build version label (Dev94 incorrectly displayed 0.4.93).
+- Preserves Dev94 native shader section export experiment and Blender material nodes.

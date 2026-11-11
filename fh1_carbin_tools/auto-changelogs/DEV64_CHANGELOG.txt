@@ -1,0 +1,5 @@
+Dev64 (0.4.64) - S2000 wheel LOD1-5 inner_rim UV0 atlas calibration
+- Applies the Dev62 verified inner_rim UV0 atlas scale and offset to S2000 wheel LOD1-5 primary vertex sections.
+- Keeps Dev63 LOD0 UV fixes and Dev59/61 geometry intact.
+- No changes to other materials, geometry, normals, exporters or non-wheel files.
+- Other LOD materials remain to be calibrated from authoritative LOD reference data.

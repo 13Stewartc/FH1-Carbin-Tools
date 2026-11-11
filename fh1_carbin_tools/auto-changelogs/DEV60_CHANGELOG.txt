@@ -1,0 +1,3 @@
+Dev61: Restore wheel LOD0 secondary packed position offset +4 accidentally reverted in Dev60. Retain Dev60 UV/normal offset changes.
+Dev60 v0.4.60 — Wheel LOD0 secondary vertex record field correction.
+Position +4 retained from Dev59 (verified geometry). UV0 now reads +12, UV1 +16, quaternion normal +20 (previously +8/+12/+16). Normal at +20 validated against reference Forza Studio OBJ. Other wheel LODs, body, cockpit, material systems, exporters unchanged. Blur LOD0 geometry is NOT restored in this build: source LOD0 sections do not include blur_lip/blur_rim, so further structural parsing is required.

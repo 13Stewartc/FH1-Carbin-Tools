@@ -1,0 +1,9 @@
+Dev61: Restore wheel LOD0 secondary packed position offset +4 accidentally reverted in Dev60. Retain Dev60 UV/normal offset changes.
+Dev55 v0.4.55 — Wheel CARBIN import support
+- Detect wheel sections with 32-bit triangle-strip indices and 0x00ffffff restart markers.
+- Read wheel section LOD IDs 0–5 and UV offset/scale fields.
+- Automatically include wheel LOD0 in the existing LOD1–5 importer; exterior body remains 1–5.
+- Preserve section material names and source provenance on imported geometry.
+- Retain Dev54 material templates, textures and controls unchanged.
+- Tested section decoding against HON_S2000_03.carbin: 6097 vertices, 26 sections, 13104 triangles across six LODs.
+- Blender UI import and game/export round trip NOT tested.

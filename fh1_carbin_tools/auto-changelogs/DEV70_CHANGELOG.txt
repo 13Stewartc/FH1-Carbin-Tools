@@ -1,0 +1,5 @@
+Dev70 / v0.4.70 - Wheel tire material preview
+- Wheel tire shader samples tireA0.xds exclusively from the configured shared directory.
+- Image Color -> Color Ramp Fac; default black/white ramp with white stop at 0.218; ramp Color -> Principled Base Color.
+- Missing texture retains image sample and ramp nodes, with original metallic 1, specular 0.5, roughness 0.320 fallback and no texture links.
+- No changes to wheel UVs, geometry, normals, blur controls, other shaders, or CARBIN export.

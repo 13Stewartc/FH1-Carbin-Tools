@@ -1,0 +1,10 @@
+FH1 CARBIN Tools v5.0.0 — Shader Browser & Performance
+- Replaced giant multi-column enum dropdown with a vertical, scrollable UIList popup (Browse Shaders).
+- Added optional searchable native shader picker (Search Shaders).
+- Both pickers consume a cached, stable snapshot of available shader names; no file reads or discovery in drawing or enum callbacks.
+- Refresh Availability alone scans FXOBJ and XML files and builds the full candidate catalogue.
+- Assign Shader and Clear Custom Shader recalculate occupancy from the cached catalogue, without reading files.
+- Occupied shader entries remain in the cached catalogue so clearing assignments restores them immediately.
+- Preserve Dev100 shared-dependency availability and Dev99 native exporter; exporter source files unchanged.
+- Updated add-on name, bl_info version, installed-build label, ZIP filename and changelog.
+- Not yet tested inside Blender 3.6 or Forza Horizon 1; validate UI behaviour and existing exports.

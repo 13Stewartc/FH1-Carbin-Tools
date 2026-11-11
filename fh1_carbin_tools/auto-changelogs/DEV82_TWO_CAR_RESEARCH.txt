@@ -1,0 +1,37 @@
+DEV82 — Targeted native shader usage audit
+
+Evidence: original non-stripped CARBIN files from user-supplied archives.
+Presence = actual parsed mesh material reference, NOT proven texture binding.
+
+HON_S2000_03(2).zip
+Textures present: damage.xds, damage_lod0.xds, damagelights.xds, damagelights_lod0.xds, hon_s2000_03_fuelbase.xds, hon_s2000_03_fuellight.xds, hon_s2000_03_fuelmask.xds, hon_s2000_03_rpm_base.xds, hon_s2000_03_rpm_mask.xds, hon_s2000_03_watertempmask.xds, interior_emissive_lod0.xds, interior_lod0.xds, leather2_nrm.xds, lights.xds, lights_lod0.xds, nodamage.xds, nodamage_lod0.xds
+HON_S2000_03.carbin (39 materials): badge=, badge2-, emblem=, body_2=, cockpit_badge-
+HON_S2000_03_caliperLF_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+HON_S2000_03_caliperLR_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+HON_S2000_03_caliperRF_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+HON_S2000_03_caliperRR_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+HON_S2000_03_cockpit.carbin (36 materials): badge=, badge2-, emblem-, body_2-, cockpit_badge-
+HON_S2000_03_lod0.carbin (34 materials): badge-, badge2-, emblem=, body_2=, cockpit_badge-
+HON_S2000_03_rotorLF_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+HON_S2000_03_rotorLR_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+HON_S2000_03_rotorRF_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+HON_S2000_03_rotorRR_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+
+extracted(2).zip
+Textures present: damage.xds, damage_lod0.xds, damagelights.xds, damagelights_lod0.xds, interior_emissive_lod0.xds, interior_lod0.xds, lights.xds, lights_lod0.xds, nodamage.xds, nodamage_lod0.xds, vw_corrado_95_txt_miles.xds
+VW_Corrado_95.carbin (42 materials): badge=, badge2-, emblem=, body_2=, cockpit_badge-
+VW_Corrado_95_caliperLF_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+VW_Corrado_95_caliperLR_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+VW_Corrado_95_caliperRF_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+VW_Corrado_95_caliperRR_LOD0.carbin (1 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+VW_Corrado_95_cockpit.carbin (29 materials): badge-, badge2-, emblem=, body_2-, cockpit_badge-
+VW_Corrado_95_lod0.carbin (37 materials): badge=, badge2-, emblem=, body_2=, cockpit_badge-
+VW_Corrado_95_rotorLF_LOD0.carbin (2 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+VW_Corrado_95_rotorLR_LOD0.carbin (2 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+VW_Corrado_95_rotorRF_LOD0.carbin (2 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+VW_Corrado_95_rotorRR_LOD0.carbin (2 materials): badge-, badge2-, emblem-, body_2-, cockpit_badge-
+
+FINDING: emblem and body_2 are already used in both primary driving and LOD0 CARBINs of both cars.
+FINDING: badge is absent from S2000 LOD0, but present in its driving and cockpit files.
+FINDING: badge2 is unused in these primary files; runtime sampler mapping still unknown.
+No material edits, no CARBIN writes, no shader binding claims.

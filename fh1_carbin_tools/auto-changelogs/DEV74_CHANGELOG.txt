@@ -1,0 +1,5 @@
+Dev74 (0.4.74) — bottom material preview
+- Route bottom shader Base Color to vehicle nodamage atlas using existing LOD0-first / LOD1-5-first image lookup.
+- Set bottom Principled Specular to 0 and remove incoming specular links.
+- Retain unlinked image texture node if nodamage texture is unavailable.
+- No geometry, UV, exporter or other material changes.

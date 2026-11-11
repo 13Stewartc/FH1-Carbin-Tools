@@ -1,0 +1,7 @@
+Dev79 / v0.4.79 — Native Material Audit (read-only)
+- File > Import > FH1 Native Material Audit (Dev79): select original CARBIN files for LOD1-5, LOD0 and cockpit.
+- Uses supplied native CARBIN parser and textures.xml to report used shader names and potential car-specific sampler texture filenames.
+- Optional car ZIP filename collision check. Report saved to Blender Text Editor.
+- No material writes, shader assignments, XDS conversion, or exporter modifications.
+- Explicitly does NOT assert sampler-to-technique mapping or cross-LOD shader compatibility without FXOBJ validation.
+- Existing geometry, UV, material preview, damage and export pipelines unchanged.

@@ -1,0 +1,1 @@
+Dev78 v0.4.78 — Body visual damage Color Ramp white stop at 0.125 (black stop 0.0), default black/white colors, linear interpolation. Applied in embedded shader preset and after material template reconstruction. Existing damage sampler links preserved. All other material configurations, geometry, UVs, import/export unchanged.

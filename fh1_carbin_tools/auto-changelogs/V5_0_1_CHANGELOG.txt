@@ -1,0 +1,4 @@
+v5.0.1 hotfix
+- Register shader browser PropertyGroup and operators before attaching Scene CollectionProperty.
+- Remove Scene properties before unregistering dependent classes.
+- No native exporter changes.

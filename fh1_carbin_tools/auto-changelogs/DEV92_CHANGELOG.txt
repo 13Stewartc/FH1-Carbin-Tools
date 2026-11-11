@@ -1,0 +1,8 @@
+Dev92 Native Shader Section Experiment | v0.4.92
+- EXPERIMENTAL: Export Model and Export Joined Geometry now attempt to write a new native CARBIN section for any custom shader assigned using Shader Controls.
+- Reuse an existing section solely as the native vertex/UV encoding donor; move the newly written triangle strips into a separate native section carrying the custom shader name.
+- Clone the source section metadata/header and preserve original index strips; validate that the independent CARBIN parser rediscovers the new shader after export.
+- Works in the LOD0/cockpit and LOD1-5 export pathways. Actual Forza Studio acceptance and texture binding remain UNVERIFIED.
+- The experimental section shares the donor UV atlas. UVs outside that donor atlas may be rejected by the existing safe exporter; this is not yet independent UV atlas generation.
+- Restore Blender source section mapping and temporary material aliasing even on failure.
+- Preserve all existing shader discovery, presets, recursive FXOBJ scanning and geometry export functionality.

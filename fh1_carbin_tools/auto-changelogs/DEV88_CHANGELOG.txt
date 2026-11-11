@@ -1,0 +1,8 @@
+Dev88 Shader Selection | 0.4.88
+- Added visible native shader candidate dropdown directly above Assign/Clear controls.
+- Displays provisional status and expected XDS filenames for the selected candidate.
+- Shader configuration defaults to existing Shared Car Textures add-on preference.
+- Added disabled configuration override path and explicit Override checkbox.
+- Removed legacy native ZIP/XMem helper and Native Material Audit import menu/operator.
+- Preserved shader_presets.json, missing-texture fallback, and geometry exporters.
+- Safety: provisional assignments remain blocked; native shader export is not yet validated.

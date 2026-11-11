@@ -1,0 +1,5 @@
+Dev67 / v0.4.67 - Wheel preview materials
+- Wheel-only atlas preview: wheel_LOD0.xds on LOD0; wheel.xds on LOD1-5.
+- Four rim material fallback: metallic 1, specular 0.5, roughness 0.320; disconnected image sample nodes remain.
+- Blur materials: wheel0.xds through wheel3.xds image nodes, selectable per material in FH1 Shader Controls; color->Base Color, alpha->Alpha. Missing frame: Alpha 0.
+- No CARBIN geometry, UV, normals, exporters or original shader definitions changed.

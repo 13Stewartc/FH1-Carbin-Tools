@@ -1,0 +1,4 @@
+Dev93 Preserve Material Nodes | v0.4.93
+- Assign Shader now updates native shader export metadata only; does not rebuild or modify Blender material nodes, links, images, or previews.
+- Clear Custom Shader continues to remove only export metadata.
+- Retains Dev92 experimental native section export behavior.

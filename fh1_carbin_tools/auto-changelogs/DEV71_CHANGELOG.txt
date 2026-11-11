@@ -1,0 +1,4 @@
+Dev71 / v0.4.71 - Tire PBR values
+- Set tire shader Metallic to 0.0, Specular to 0.0 and Roughness to 0.515, whether tireA0.xds is present or missing.
+- Preserve tireA0.xds -> Color Ramp (white at 0.218) -> Base Color when texture exists.
+- Preserve all other wheel materials, blur controls, UVs, geometry and exporters.

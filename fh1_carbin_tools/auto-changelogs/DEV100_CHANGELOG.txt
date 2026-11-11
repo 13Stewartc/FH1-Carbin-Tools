@@ -1,0 +1,6 @@
+Dev100 Shader Availability Fix | 0.4.100
+- Fixed availability filter that suppressed badge2 because its shared DirtMaskSampler overlaps occupied materials.
+- Candidate discovery no longer reserves texture dependencies across candidates; shared dependencies are displayed as warnings rather than exclusion.
+- Shader selection remains provisional where occupied bindings or shared dependencies need verification.
+- Native shader exporter and all geometry/LOD writers unchanged from Dev99.
+- Verify against MER_SLSAMG_11 stock badge2 and test Corrado LOD0 export in Forza Studio and game.

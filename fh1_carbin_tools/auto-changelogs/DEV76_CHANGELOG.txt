@@ -1,0 +1,4 @@
+Dev76 (0.4.76)
+- LOD1-5 hidhead: Lights RGB to Base Color, Lights Alpha to Specular (0.5 fallback).
+- LOD1-5 oldhead: Lights RGB to Base Color; disconnect Specular, constant 0.5.
+- fullbeam unchanged. No geometry, UV, normal, exporter, or other material changes.

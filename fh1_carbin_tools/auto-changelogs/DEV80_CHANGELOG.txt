@@ -1,0 +1,4 @@
+Dev80 (0.4.80) - Native Material Audit file selection fix
+- Declare ImportHelper directory as Blender StringProperty subtype DIR_PATH for multi-file selection.
+- Fall back to filepath parent directory when necessary.
+- Preserve Dev79 audit and existing importer/exporter code.

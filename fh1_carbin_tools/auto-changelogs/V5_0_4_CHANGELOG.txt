@@ -1,0 +1,6 @@
+v5.0.4 - Used Shader Assignment Confirmation
+- Permit assigning any catalogued native shader, including those already used elsewhere in the vehicle.
+- Used shader selections show an OK/Cancel confirmation before changing the custom material.
+- Free shader selections assign directly.
+- Browser USED/FREE remains informational; metadata and Blender nodes are preserved.
+- Preserves v5.0.3 experimental LOD1-5 export logic.

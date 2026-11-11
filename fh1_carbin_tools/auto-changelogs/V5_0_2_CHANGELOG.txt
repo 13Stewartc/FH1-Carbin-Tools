@@ -1,0 +1,6 @@
+v5.0.2 - Shader browser status and search fix
+- Browse Shaders now displays ALL cached catalogue entries, with checkmark USED and hollow circle FREE.
+- Assign Shader continues to reject already-used shaders.
+- Search Shaders uses a Blender 3.6-compatible text dialog with case-insensitive filtering and exact-name selection; one match auto-selects.
+- No scanning on browser/search/redraw. Refresh Availability scans files; Assign/Clear only recalculate scene occupancy in memory.
+- Exporter modules unchanged.

@@ -1,0 +1,6 @@
+Dev61: Restore wheel LOD0 secondary packed position offset +4 accidentally reverted in Dev60. Retain Dev60 UV/normal offset changes.
+Dev56 v0.4.56
+- Route CARBIN header version 3 (wheel format) to existing LOD importer.
+- Preserve version 1 brake/rotor routing and version 5 body/cockpit routing.
+- Updated internal bl_info name/version, log version and ZIP filename.
+- Wheel Blender import and export are not runtime validated.

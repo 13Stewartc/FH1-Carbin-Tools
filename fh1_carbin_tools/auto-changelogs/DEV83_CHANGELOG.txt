@@ -1,0 +1,7 @@
+Dev83 | v0.4.83 | Single-Dialog Archive Audit
+- Fixed Blender file-selector collision: no nested archive path picker inside the CARBIN picker.
+- Audit accepts one vehicle ZIP directly and scans its non-stripped CARBIN files plus XDS filenames.
+- Loose multi-CARBIN selection remains supported.
+- ZIP member extraction uses a temporary directory and safe generated filenames.
+- Updated add-on name, bl_info, installed build, audit text, menu, registration and changelog.
+- Geometry, damage, UV and exporter code unchanged.

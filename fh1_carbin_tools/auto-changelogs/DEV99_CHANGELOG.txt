@@ -1,0 +1,6 @@
+Dev99 Native Section Count Fix | 0.4.99
+- Fix LOD0 custom shader insertion: increment the component native shader-section count when adding sections.
+- Validate that the pre-insertion declared count matches parsed section count; fail without replacing destination if not.
+- Fail closed for unvalidated LOD1-5 custom shader insertion; ordinary LOD1-5 export remains unchanged.
+- Preserve existing geometry export and Blender material nodes.
+- Compare working Corrado export (10) against broken (9): trunk section header declared 8 while 9 native sections were written.

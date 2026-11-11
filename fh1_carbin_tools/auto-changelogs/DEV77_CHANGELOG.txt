@@ -1,0 +1,7 @@
+Dev77 / v0.4.77 — Headlight damage preview
+
+- fullbeam, oldhead and hidhead on LOD1–LOD5 now use the same shared Light Damage group as indicator_right.
+- Existing undamaged lights.xds RGB preview retained; hidhead retains Lights alpha -> Specular, oldhead remains unlinked.
+- Damaged branch samples damagelights.xds RGB; when missing, its sample node remains present and unlinked.
+- Shared FH1 Shader Controls Light Damage value drives the blend between undamaged and damaged BSDFs.
+- No geometry, UV, exporter, wheel or other shader changes.

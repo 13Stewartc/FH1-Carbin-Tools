@@ -1,0 +1,6 @@
+Dev91 Provisional Shader Assignment | v0.4.91
+- Permit assignment of a selected candidate even when unrelated occupied shader texture bindings remain unresolved.
+- Retain candidate texture-disjoint checks against known occupied dependencies and prevent assignment of occupied shaders.
+- Mark assigned materials fh1_custom_shader_provisional and show a warning.
+- Preserve FXOBJ recursive discovery, shader presets, and all existing exporters unchanged.
+- Native CARBIN section creation for absent shaders remains NOT implemented.

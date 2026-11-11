@@ -1,0 +1,5 @@
+Dev84 Audit Module Reload Fix | 0.4.84
+- Reload native_material_audit during add-on initialization so Blender cannot retain a stale Dev82 module missing inspect_selection.
+- Retain single-dialog ZIP/loose CARBIN audit from Dev83.
+- Update installed-build display, operator labels, version, and changelog.
+- No changes to geometry, UV, damage or material export logic.

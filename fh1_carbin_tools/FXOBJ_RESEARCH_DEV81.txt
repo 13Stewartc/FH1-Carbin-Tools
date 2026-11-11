@@ -1,0 +1,26 @@
+FH1 Dev81 FXOBJ RESEARCH (READ ONLY)
+Archive: Game(1).zip
+FXOBJ files: 174
+
+Important: raw name occurrence does not prove technique-to-sampler binding.
+
+shaders_v16.fxobj: 3317811 bytes
+  badge2: 0xfbd3c
+  Badge2Sampler: 0xdca44, 0xfb1a0
+  badge: 0xfbd15, 0xfbd2f, 0xfbd3c, 0xfbd43, 0xfbd57, 0xfbda6, 0xfbdc0
+  BadgeSampler: absent
+
+shaders_slod_v16.fxobj: 3540135 bytes
+  badge2: 0xfa147
+  Badge2Sampler: 0xd1408, 0xf9477
+  badge: 0xfa120, 0xfa13a, 0xfa147, 0xfa14e, 0xfa162, 0xfa1b1, 0xfa1cb
+  BadgeSampler: absent
+
+badge.fxobj: 33363 bytes
+  badge2: absent
+  Badge2Sampler: absent
+  badge: 0x427d
+  BadgeSampler: absent
+
+Interpretation: candidate exists as raw name only; technique mapping still UNVERIFIED.
+Before writing CARBIN assignments, inspect FXOBJ technique/pass records and verify garage/race shader variants.

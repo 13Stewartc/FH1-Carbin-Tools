@@ -1,0 +1,7 @@
+Dev89 FXOBJ Catalogue | 0.4.89
+- Added persistent Game Shader Folder add-on preference.
+- Refresh Availability checks candidate names in shaders_v16.fxobj and shaders_slod_v16.fxobj.
+- Displays native library presence per candidate; explicitly NOT proof of sampler binding or native compatibility.
+- Existing shader presets, fallback materials, scene-wide discovery and exporters preserved.
+- Native section creation for previously absent shader techniques remains unimplemented; do not treat assignments as export-ready.
+- No XMem or ZIP import audit added.

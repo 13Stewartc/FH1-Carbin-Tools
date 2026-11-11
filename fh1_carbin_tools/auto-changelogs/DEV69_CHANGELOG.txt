@@ -1,0 +1,6 @@
+Dev69 / v0.4.69 - Wheel blur layer disabled by default
+
+- FH1 Shader Controls > Wheel Blur Layer > Disable defaults to enabled (checked).
+- Blur material previews start fully transparent until the user unchecks Disable.
+- Shared frame selector, texture lookup, geometry, UVs, normals, and exporters unchanged.
+- Existing .blend scenes with an explicitly saved blur toggle retain their saved setting.

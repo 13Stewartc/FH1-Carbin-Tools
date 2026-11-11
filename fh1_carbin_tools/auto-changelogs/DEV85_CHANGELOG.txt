@@ -1,0 +1,6 @@
+Dev85 Native ZIP Bridge | 0.4.85
+- Added method-21 compressed ZIP member bridge to optional x86 XMem helper.
+- Added x86 C# helper source and build instructions; runtime validation still pending.
+- Added output length and CRC verification.
+- Updated internal bl_info, addon name, audit title and Installed build label.
+- No geometry exporter modifications.

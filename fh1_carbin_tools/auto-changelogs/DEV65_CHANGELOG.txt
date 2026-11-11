@@ -1,0 +1,7 @@
+Dev65 / 0.4.65 — Wheel LOD0 blur section recovery
+
+- Fixed section validation: wheel LOD0 indices address the secondary vertex pool (7145 records), not the primary pool (6097 records).
+- This previously dropped blur_lip (1120 triangles) and blur_rim (560 triangles) silently.
+- Both are now included as material sections of the existing wheel_L0 mesh, not separate objects.
+- No changes to position/normal/UV decoding, LOD1-5, material resolver, or export code.
+- Verified triangle connectivity and counts against S2000 Forza Studio OBJ.

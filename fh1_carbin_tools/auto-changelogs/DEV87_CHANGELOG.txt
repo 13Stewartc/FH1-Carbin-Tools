@@ -1,0 +1,6 @@
+Dev87 Provisional Shader Discovery | 0.4.87
+- Refresh Availability no longer aborts all discovery when occupied shader texture mappings are unresolved.
+- Reports provisional candidates and unresolved occupied shader count/names.
+- Blocks assignment of provisional candidates until texture conflicts can be ruled out.
+- Existing exporters, shader_presets.json and CARBIN material parsing unchanged.
+- Updated displayed build, internal version, audit labels and archive name.

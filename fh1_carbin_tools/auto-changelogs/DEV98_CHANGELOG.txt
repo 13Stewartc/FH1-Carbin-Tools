@@ -1,0 +1,6 @@
+Dev98 Isolated Shader Donor (0.4.98)
+- Fix LOD0 custom-shader export changing fh1_shader_name on shared Blender material datablocks.
+- Native writer now resolves a temporary donor per new face without mutating the Blender material.
+- Section postprocessor matches donor faces from custom shader metadata, not temporary material mutations.
+- Preserve normal geometry exports and Blender material node trees.
+- Native section insertion remains experimental; verify full hierarchy and new section in Forza Studio.

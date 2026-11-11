@@ -1,0 +1,7 @@
+Dev96 Export Integrity Guard (0.4.96)
+- Preserve normal exports with no custom shader faces; bypass experimental postprocessing.
+- Verify baseline component names and order before section insertion.
+- Verify complete component names, vertex counts and original shader lists after insertion; reject unexpected extra sections.
+- Fail closed rather than delivering a partially parsed CARBIN.
+- Retain Dev95 .carbin extension handling and existing Blender node trees.
+- Native shader insertion remains experimental; Forza Studio acceptance NOT yet proven.

@@ -1,0 +1,7 @@
+Dev61: Restore wheel LOD0 secondary packed position offset +4 accidentally reverted in Dev60. Retain Dev60 UV/normal offset changes.
+Dev52 (0.4.52)
+- Fixed taillight2S and taillightst template-only DamageLights image resolution.
+- Resolve lights, damagelights, damage, and nodamage directly from imported car folders,
+  selecting _LOD0 for cockpit/LOD0 and unsuffixed files for LOD1-5.
+- Keep shader_presets.json templates authoritative; do not modify their node graphs.
+- Retain Dev51's global N-menu and shared node groups.

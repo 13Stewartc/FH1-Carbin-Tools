@@ -1,0 +1,7 @@
+Dev66 / 0.4.66 — S2000 wheel LOD0 blur UV atlas calibration
+
+- Added Forza Studio OBJ-verified UV0 atlas transforms for blur_lip and blur_rim.
+- Fixed Dev65 six-section signature disabling existing inner_rim, outer_rim and wheel_black UV0 corrections.
+- Restricted changes to exact S2000 wheel LOD0 signature (6097 primary, 7145 secondary, six named sections).
+- Preserved geometry, normals, UV1, LOD1-5, materials and exporters.
+- Blur UV0 maximum linear-fit residual < 0.00000011 in OBJ coordinate space.

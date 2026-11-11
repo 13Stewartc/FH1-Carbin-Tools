@@ -1,0 +1,309 @@
+<TextureDefinitions>
+    <UndercarriageSampler>
+        <Texture value="undercarriage.xds" searchPath="%SHAREDCARFOLDER%" heap="fixed" loadFlags="!SuperLOD"/>
+    </UndercarriageSampler>
+    <MetalSampler>
+        <Texture value="metal_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD"/>
+    </MetalSampler>
+    <Badge2Sampler>
+        <Texture value="badge2.xds" searchPath="%CARFOLDER%" heap="fixed" loadFlags="!SuperLOD"/>
+    </Badge2Sampler>
+    <BumperFrameSampler>
+        <Texture value="bumper_frame.xds" searchPath="%SHAREDCARFOLDER%" loadFlags="!SuperLOD" heap="fixed"/>
+    </BumperFrameSampler>
+    <DamageGlassSampler>
+        <Texture value="glass_texture.xds" searchPath="%SHAREDCARFOLDER%" loadFlags="!SuperLOD" heap="fixed"/>
+    </DamageGlassSampler>
+  <Grille1Sampler>
+    <Texture value="grille1_alpha.xds" searchPath="%SHAREDCARFOLDER%"  heap="fixed"/>
+  </Grille1Sampler>
+  <Grille2Sampler>
+    <Texture value="grille2_alpha.xds" searchPath="%SHAREDCARFOLDER%"  heap="fixed"/>
+  </Grille2Sampler>
+  <DirtMaskSampler>
+      <Texture value="dirt_mask.xds" searchPath="%SHAREDCARFOLDER%" loadFlags="!SuperLOD" heap="fixed"/>
+  </DirtMaskSampler>
+    <DirtSampler>
+        <Texture value="dirt_pattern.xds" searchPath="%SHAREDCARFOLDER%" loadFlags="!SuperLOD" heap="fixed"/>
+    </DirtSampler>
+    <LightsSampler>
+        <Texture value="lights.xds" searchPath="%CARFOLDER%" heap="vehicle" loadFlags="LOD15"/>
+        <Texture value="lights_LOD0.xds" searchPath="%CARFOLDER%" heap="compressed" loadFlags="LOD0"/>
+        <Texture value="lights_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </LightsSampler>
+    <DamageLightsSampler>
+        <Texture value="damagelights.xds" searchPath="%CARFOLDER%" heap="vehicle" loadFlags="LOD15 & InGameTextures"/>
+        <Texture value="damagelights_lod0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+        <Texture value="damagelights_lod0.xds" searchPath="%CARFOLDER%" heap="compressed" loadFlags="LOD0"/>
+    </DamageLightsSampler>
+    <CarbonFiberSampler>
+        <Texture value="carbonFiberNormal.xds" searchPath="%SHAREDCARFOLDER%" loadFlags="!SuperLOD" heap="fixed" bias="true"/>
+    </CarbonFiberSampler>
+    <CarbonFiberDiffuseSampler>
+        <Texture value="carbonFiber.xds" searchPath="%SHAREDCARFOLDER%" loadFlags="!SuperLOD" heap="fixed"/>
+    </CarbonFiberDiffuseSampler>
+    <CarbonFiberASampler>
+        <Texture value="cf1_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </CarbonFiberASampler>
+    <CarbonFiberBSampler>
+        <Texture value="cf2_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </CarbonFiberBSampler>
+    <CarbonFiberCSampler>
+        <Texture value="cf3_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </CarbonFiberCSampler>
+    <LightsAOSampler>
+        <Texture value="lights_occ_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </LightsAOSampler>
+    <ClothNormalSuperSampler>
+        <Texture value="cloth_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </ClothNormalSuperSampler>
+    <ClothSuperSampler>
+        <Texture value="cloth_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </ClothSuperSampler>
+    <Cloth2NormalSuperSampler>
+        <Texture value="cloth2_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Cloth2NormalSuperSampler>
+    <Cloth2SuperSampler>
+        <Texture value="cloth2_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </Cloth2SuperSampler>
+    <Cloth3NormalSuperSampler>
+        <Texture value="cloth3_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Cloth3NormalSuperSampler>
+    <Cloth3SuperSampler>
+        <Texture value="cloth3_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </Cloth3SuperSampler>
+    <CustomANormalSuperSampler>
+        <Texture value="customA_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </CustomANormalSuperSampler>
+    <CustomA2NormalSuperSampler>
+        <Texture value="customA2_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </CustomA2NormalSuperSampler>
+    <CustomBNormalSuperSampler>
+        <Texture value="customB_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </CustomBNormalSuperSampler>
+    <CustomB2NormalSuperSampler>
+        <Texture value="customB2_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </CustomB2NormalSuperSampler>
+    <GaugesPlasticSuperSampler>
+        <Texture value="interior_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </GaugesPlasticSuperSampler>    
+    <HeadlinerNormalSuperSampler>
+        <Texture value="headliner_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </HeadlinerNormalSuperSampler>
+    <HeadlinerSuperSampler>
+        <Texture value="headliner_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </HeadlinerSuperSampler>
+    <Headliner2NormalSuperSampler>
+        <Texture value="headliner2_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Headliner2NormalSuperSampler>
+    <Headliner2SuperSampler>
+        <Texture value="headliner2_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </Headliner2SuperSampler>
+    <InteriorNormalSuperSampler>
+        <Texture value="interior_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </InteriorNormalSuperSampler>
+    <LeatherNormalSuperSampler>
+        <Texture value="leather_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </LeatherNormalSuperSampler>
+    <Metal3NormalSuperSampler>
+        <Texture value="metal3_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Metal3NormalSuperSampler>
+    <Metal4NormalSuperSampler>
+        <Texture value="metal4_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Metal4NormalSuperSampler>
+    <Metal5NormalSuperSampler>
+        <Texture value="metal5_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Metal5NormalSuperSampler>
+    <PlasticNormalSuperSampler>
+        <Texture value="plastic_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </PlasticNormalSuperSampler>
+    <StitchANormalSuperSampler>
+        <Texture value="stitchA_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </StitchANormalSuperSampler>
+    <StitchASuperSampler>
+        <Texture value="stitchA_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </StitchASuperSampler>
+    <StitchBNormalSuperSampler>
+        <Texture value="stitchB_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </StitchBNormalSuperSampler>
+    <StitchBSuperSampler>
+        <Texture value="stitchB_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </StitchBSuperSampler>
+    <StitchCNormalSuperSampler>
+        <Texture value="stitchC_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </StitchCNormalSuperSampler>
+    <StitchCSuperSampler>
+        <Texture value="stitchC_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </StitchCSuperSampler>
+    <StitchDNormalSuperSampler>
+        <Texture value="stitchD_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </StitchDNormalSuperSampler>
+    <StitchDSuperSampler>
+        <Texture value="stitchD_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </StitchDSuperSampler>
+    <StitchENormalSuperSampler>
+        <Texture value="stitchE_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </StitchENormalSuperSampler>
+    <StitchESuperSampler>
+        <Texture value="stitchE_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </StitchESuperSampler>
+    <StitchFNormalSuperSampler>
+        <Texture value="stitchF_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </StitchFNormalSuperSampler>
+    <StitchFSuperSampler>
+        <Texture value="stitchF_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </StitchFSuperSampler>
+    <StitchGNormalSuperSampler>
+        <Texture value="stitchG_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </StitchGNormalSuperSampler>
+    <StitchGSuperSampler>
+        <Texture value="stitchG_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </StitchGSuperSampler>
+    <WoodNormalSuperSampler>
+        <Texture value="wood_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </WoodNormalSuperSampler>
+    <Mottled2Sampler>
+        <Texture value="mottled2_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Mottled2Sampler>
+    <Mottled3Sampler>
+        <Texture value="mottled3_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Mottled3Sampler>
+    <MottledNormal2Sampler>
+        <Texture value="mottled2_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </MottledNormal2Sampler>
+  <MottledSampler>
+    <Texture value="mottled_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+  </MottledSampler>
+  <MottledNormalSampler>
+    <Texture value="mottled_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+  </MottledNormalSampler>
+  <CloudsSampler>
+    <Texture value="clouds_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="fixed" loadFlags="Cockpit & !SuperLOD & CarCommon"/>
+    <Texture value="clouds_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD"/>
+  </CloudsSampler>
+    <CockpitAOSampler>
+        <Texture value="interior2_OCC_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD"/>
+    </CockpitAOSampler>
+    <ChromeNormalSampler>
+        <Texture value="chrome_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" bias="true" loadFlags="SuperLOD"/>
+    </ChromeNormalSampler>
+    <NoiseNormalSampler>
+        <Texture value="noise_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" bias="true" loadFlags="SuperLOD"/>
+    </NoiseNormalSampler>
+    <CockpitInteriorHiSampler>
+        <Texture value="interior2_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD"/>
+        <Texture value="Interior_LOD0.xds" searchPath="%CARFOLDER%" heap="fixed" loadFlags="Cockpit & !SuperLOD"/>
+    </CockpitInteriorHiSampler>
+    <CockpitGaugeEmissiveSampler>
+        <Texture value="interior_emissive_LOD0.xds" searchPath="%CARFOLDER%" heap="fixed" loadFlags="Cockpit & !SuperLOD"/>
+    </CockpitGaugeEmissiveSampler>
+    <CockpitNormalSampler>
+        <Texture value="interior2_NRM_s_lod0.xds" searchPath="%CARFOLDER%"  heap="pregame" loadFlags="Cockpit & SuperLOD" bias="true"/>
+    </CockpitNormalSampler>
+    <CockpitWoodSampler>
+        <Texture value="wood.xds" searchPath="%CARFOLDER%" heap="fixed" loadFlags="Cockpit & !SuperLOD"/>
+        <Texture value="wood_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD"/>
+    </CockpitWoodSampler>
+    <PlasticNormalSampler>
+        <Texture value="plastic_NRM.xds" searchPath="%SHAREDCARFOLDER%" heap="fixed" loadFlags="Cockpit & !SuperLOD & CarCommon" bias="true"/>
+        <Texture value="plastic_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD & CarCommon" bias="true"/>
+    </PlasticNormalSampler>
+    <Plastic2NormalSampler>
+        <Texture value="plastic2_NRM.xds" searchPath="%CARFOLDER%" heap="fixed" loadFlags="Cockpit & !SuperLOD" bias="true"/>
+        <Texture value="plastic2_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD" bias="true"/>
+    </Plastic2NormalSampler>
+    <Plastic3NormalSampler>
+        <Texture value="plastic3_NRM.xds" searchPath="%CARFOLDER%" heap="fixed" loadFlags="Cockpit & !SuperLOD" bias="true"/>
+        <Texture value="plastic3_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD" bias="true"/>
+    </Plastic3NormalSampler>
+    <CockpitLeatherNormalSampler>
+        <Texture value="leather_NRM.xds" searchPath="%SHAREDCARFOLDER%" heap="fixed" loadFlags="Cockpit & !SuperLOD & CarCommon" bias="true"/>
+        <Texture value="leather_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD & CarCommon" bias="true"/>
+    </CockpitLeatherNormalSampler>
+    <CockpitLeather2NormalSampler>
+        <Texture value="leather2_NRM.xds" searchPath="%CARFOLDER%" loadFlags="Cockpit & !SuperLOD" bias="true" heap="fixed"/>
+        <Texture value="leather2_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" loadFlags="Cockpit & SuperLOD" bias="true" heap="pregame"/>
+    </CockpitLeather2NormalSampler>
+    <CockpitLeather3NormalSampler>
+        <Texture value="leather3_NRM.xds" searchPath="%CARFOLDER%" loadFlags="Cockpit & !SuperLOD" bias="true" heap="fixed"/>
+        <Texture value="leather3_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" loadFlags="Cockpit & SuperLOD" bias="true" heap="pregame"/>
+    </CockpitLeather3NormalSampler>
+    <CockpitStitchingNormalSampler>
+        <Texture value="stitches_BUMP.xds" searchPath="%SHAREDCARFOLDER%" loadFlags="Cockpit & !SuperLOD & CarCommon" bias="true"/>
+        <Texture value="stitches_BUMP.xds" searchPath="%SHAREDCARFOLDER%" loadFlags="Cockpit & SuperLOD & CarCommon" bias="true" heap="pregame"/>
+    </CockpitStitchingNormalSampler>
+    <Grille1DiffuseSampler>
+        <Texture value="grille1_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Grille1DiffuseSampler>
+    <Grille2DiffuseSampler>
+        <Texture value="grille2_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Grille2DiffuseSampler>
+    <Grille3DiffuseSampler>
+        <Texture value="grille3_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </Grille3DiffuseSampler>
+  <Grille1NormalSampler>
+    <Texture value="grille1_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+  </Grille1NormalSampler>
+  <Grille2NormalSampler>
+    <Texture value="grille2_NRM_s_LOD0.xds" searchPath="%SHAREDCARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+  </Grille2NormalSampler>
+  <Grille3NormalSampler>
+    <Texture value="grille3_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+  </Grille3NormalSampler>
+    <EngineDiffuseSampler>
+        <Texture value="engine_s_lod0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD"/>
+    </EngineDiffuseSampler>
+    <EngineAOSampler>
+        <Texture value="engine_occ_s_lod0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="Cockpit & SuperLOD"/>
+    </EngineAOSampler>
+    <EngineNormalSampler>
+        <Texture value="engine_NRM_s_lod0.xds" searchPath="%CARFOLDER%"  heap="pregame" loadFlags="Cockpit & SuperLOD" bias="true"/>
+    </EngineNormalSampler>
+    <BrakeDiffuseSampler>
+        <Texture value="brakes_s_LOD0.xds" searchPath="%CARFOLDER%" loadFlags="SuperLOD" heap="pregame"/>
+    </BrakeDiffuseSampler>
+    <BrakeNormalSampler>
+        <Texture value="brakes_nrm_s_lod0.xds" searchPath="%CARFOLDER%" loadFlags="SuperLOD" heap="pregame" bias="true"/>
+    </BrakeNormalSampler>
+    <BrakeAOSampler>
+        <Texture value="brakes_occ_s_lod0.xds" searchPath="%CARFOLDER%" loadFlags="SuperLOD" heap="pregame"/>
+    </BrakeAOSampler>
+    <CustomNormalSampler>
+        <Texture value="custom_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </CustomNormalSampler>
+    <CustomNormal2Sampler>
+        <Texture value="custom2_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </CustomNormal2Sampler>
+    <WheelAOSampler>
+        <Texture value="wheel_OCC_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </WheelAOSampler>
+    <WheelNormalSampler>
+        <Texture value="wheel_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD" bias="true"/>
+    </WheelNormalSampler>
+    <WheelDiffuseSampler>
+        <Texture value="wheel_s_LOD0.xds" searchPath="%WHEELFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+    </WheelDiffuseSampler>
+  <CustomPaintBaseSampler>
+    <Texture value="baseColor_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+  </CustomPaintBaseSampler>
+  <CustomPaintDetailSampler>
+    <Texture value="detailColor_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+  </CustomPaintDetailSampler>
+  <CustomTreadSampler>
+    <Texture value="tread_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+  </CustomTreadSampler>
+  <CustomTreadNormalSampler>
+    <Texture value="tread_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+  </CustomTreadNormalSampler>
+
+
+  <ExteriorMetalSampler>
+    <Texture value="metal_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+  </ExteriorMetalSampler>
+  <ExteriorMetalNormalSampler>
+    <Texture value="metal_NRM_s_LOD0.xds" searchPath="%CARFOLDER%" heap="pregame" loadFlags="SuperLOD"/>
+  </ExteriorMetalNormalSampler>
+  <NumplateSampler>
+    <Texture value="traffic_numplates_DXT1.xds" searchPath="%SHAREDCARFOLDER%" heap="fixed" loadFlags="LOD15"/>
+  </NumplateSampler>
+</TextureDefinitions>

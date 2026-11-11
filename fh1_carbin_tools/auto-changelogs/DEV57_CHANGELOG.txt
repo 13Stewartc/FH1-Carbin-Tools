@@ -1,0 +1,2 @@
+Dev61: Restore wheel LOD0 secondary packed position offset +4 accidentally reverted in Dev60. Retain Dev60 UV/normal offset changes.
+Dev57 v0.4.57 - Experimental wheel LOD0-only direct position reconstruction from Forza Studio packed XYZ*W formula. Bypasses inferred global bounds normalization for wheel LOD0 only. Other wheel LODs, body, cockpit, materials, and exporters unchanged. This is an unverified geometry test, not a confirmed fix.

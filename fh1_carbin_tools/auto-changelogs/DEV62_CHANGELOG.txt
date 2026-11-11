@@ -1,0 +1,9 @@
+Dev62 (0.4.62) — S2000 wheel LOD0 inner_rim UV0 calibration.
+
+Reference: HON_S2000_WHEEL_LOD0.obj exported by Forza Studio 4.6.
+Measured exact affine mapping for inner_rim from secondary-buffer UV0 to OBJ texture atlas:
+  U = 0.01294262 + 0.97036508 * raw_U
+  V = 0.60888060 - 0.60281207 * raw_V
+Scope: only version-3 wheel, LOD0, wheel component, 6097 primary / 7145 secondary vertices, four matching material sections.
+Preserves Dev61 position +4, normals, UV1, other wheel materials, other LODs, and other import/export code.
+This is a reference-calibrated S2000 fix, not yet a general wheel atlas decoder.

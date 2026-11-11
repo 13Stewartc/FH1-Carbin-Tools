@@ -1,0 +1,5 @@
+Dev61: Restore wheel LOD0 secondary packed position offset +4 accidentally reverted in Dev60. Retain Dev60 UV/normal offset changes.
+Dev53 v0.4.53
+- Black glass uses window graph, Glass Damage shared group, DamageGlassSampler.
+- Add Mix A is opaque black. Material OPAQUE, BSDF alpha 1.
+- Damageglass vehicle texture family added to LOD-aware resolver.

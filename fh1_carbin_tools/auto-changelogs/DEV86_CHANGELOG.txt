@@ -1,0 +1,9 @@
+Dev86 Shader Controls — 0.4.86 (experimental foundation)
+- Added material-properties Shader Controls panel with scene-wide refresh and conservative availability filtering.
+- Reads extracted ShaderSettings/Normal.xml and textures.xml; no original ZIP, DLL or external executable needed.
+- Rejects candidate shaders already occupied by scene materials and rejects known sampler/XDS overlaps.
+- Fails closed when any occupied shader's sampler dependencies cannot be resolved.
+- Custom material assignment stores native shader metadata and texture dependencies; reserves candidate in session.
+- Preview uses existing shader_presets.json; default missing/not-provided fallback is #3C3C3C, metallic 0, specular 0, roughness 1.
+- All add-on version identifiers and installed-build label updated to Dev86.
+LIMITATIONS: This is NOT full Dev86 completion. No validated FXOBJ technique-to-sampler proof, no verified native exporter integration for arbitrary new shader assignments, no XDS Image Editor picker, no automatic 4x4 placeholders, and no Blender runtime/in-game validation. Available candidates are configuration-derived, not guaranteed game-compatible. Import all target LOD contexts before refresh. Existing exporters unchanged.
