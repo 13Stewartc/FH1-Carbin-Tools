@@ -52,3 +52,19 @@ Developed by **13Stewartc** with reference to community reverse-engineering rese
 Special thanks to the developers and contributors behind Forza Studio, Forza Horizon Re-Imagined and the wider Forza modding community.
 
 See [CREDITS.md](CREDITS.md) for acknowledgements, research references and third-party attributions.
+
+## Development Assistance
+
+### Vibe Coded with ChatGPT+ 🤖💜
+
+FH1-Carbin Tools was developed by **13Stewartc**, with extensive AI-assisted development provided by **OpenAI's ChatGPT Plus**.
+
+ChatGPT assisted with Python scripting, reverse engineering the proprietary CARBIN format, binary analysis, debugging, and implementing the Blender import/export functionality.
+
+All project direction, feature requirements, hands-on testing, in-game validation, and final development decisions were handled by **13Stewartc**.
+
+Development was powered by questionable amounts of caffeine, relentless trial and error, countless hours of debugging, and **an unreasonable number of exploded Volkswagen Corrados**.
+
+While ChatGPT contributed extensively to the development process, it also occasionally demonstrated a remarkable ability to turn perfectly functional vehicles into abstract art.
+
+*Built with curiosity, persistence, a healthy disregard for sleep, and the shared determination to make a 2012 racing game do things it was never supposed to do.*
