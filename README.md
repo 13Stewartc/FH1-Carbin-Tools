@@ -1,2 +1,46 @@
-# FH1-Carbin-Tools
-FH1-Carbin Tools is a Blender 3.6 add-on for importing, modifying and exporting vehicle models from Forza Horizon (2012).
+# FH1-Carbin Tools
+
+**FH1-Carbin Tools** is a Blender 3.6 add-on designed to import, modify and export vehicle models from **Forza Horizon (2012)**.
+
+The project aims to make FH1 vehicle modding more accessible by allowing users to work directly with the game's proprietary `.carbin` model format inside Blender.
+
+## Features
+
+- Import FH1 vehicle geometry into Blender.
+- Export modified geometry back into `.carbin` files.
+- Support for exterior LOD1–LOD5 and cockpit LOD0 models.
+- Add custom geometry to existing vehicle components.
+- Preserve original vehicle hierarchy, UV mapping and normals.
+- Inspect and work with existing vehicle materials.
+- Experimental support for damage-related vertex data and deformation.
+
+## Current limitations
+
+- Creating additional material sections is experimental. New sections may be recognised by model viewers but fail to render in-game.
+- Custom texture and material-instance exporting remains under development.
+- Damage deformation support is experimental and may behave differently between exterior and cockpit models.
+- Compatibility may vary between vehicles and CARBIN variants.
+
+## Compatibility
+
+- **Blender:** 3.6
+- **Game:** Forza Horizon (2012)
+- **Mod testing:** Forza Horizon Re-Imagined
+
+## Project status
+
+FH1-Carbin Tools is an ongoing reverse-engineering and modding project. Some functionality remains experimental, and exported models should be tested before use.
+
+This is an unofficial community project and is not affiliated with Microsoft, Xbox Game Studios, Playground Games or Turn 10 Studios.
+
+## Non-Commercial Use
+
+FH1-Carbin Tools is a free, community-driven project created for Forza Horizon 1 modding, research and preservation.
+
+**No profiteering is permitted.**
+
+The software and its derivatives must not be sold, monetised, redistributed for payment, included in paid mod packs, or placed behind paywalls without explicit written permission from the original author.
+
+Users may share, discuss and contribute to the project, provided the original author receives appropriate credit and the project's non-commercial terms are respected.
+
+FH1-Carbin Tools is an unofficial project and is not affiliated with Microsoft, Playground Games, Turn 10 Studios or Xbox Game Studios.
