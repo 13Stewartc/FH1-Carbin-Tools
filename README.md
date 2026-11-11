@@ -44,3 +44,11 @@ The software and its derivatives must not be sold, monetised, redistributed for 
 Users may share, discuss and contribute to the project, provided the original author receives appropriate credit and the project's non-commercial terms are respected.
 
 FH1-Carbin Tools is an unofficial project and is not affiliated with Microsoft, Playground Games, Turn 10 Studios or Xbox Game Studios.
+
+## Credits & Acknowledgements
+
+Developed by **13Stewartc** with reference to community reverse-engineering research and existing Forza modding tools.
+
+Special thanks to the developers and contributors behind Forza Studio, Forza Horizon Re-Imagined and the wider Forza modding community.
+
+See [CREDITS.md](CREDITS.md) for acknowledgements, research references and third-party attributions.
