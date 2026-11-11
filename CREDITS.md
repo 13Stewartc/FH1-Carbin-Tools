@@ -25,3 +25,19 @@ Forza Horizon and its associated assets are the intellectual property of their r
 FH1-Carbin Tools is an unofficial, independent community project and is not affiliated with or endorsed by Microsoft, Xbox, Playground Games or Turn 10 Studios.
 
 All third-party software and research remain subject to their respective licenses and attribution requirements.
+
+## Development Assistance
+
+### Vibe Coded with ChatGPT+ 🤖💜
+
+FH1-Carbin Tools was developed by **13Stewartc**, with extensive AI-assisted development provided by **OpenAI's ChatGPT Plus**.
+
+ChatGPT assisted with Python scripting, reverse engineering the proprietary CARBIN format, binary analysis, debugging, and implementing the Blender import/export functionality.
+
+All project direction, feature requirements, hands-on testing, in-game validation, and final development decisions were handled by **13Stewartc**.
+
+Development was powered by questionable amounts of caffeine, relentless trial and error, countless hours of debugging, and **an unreasonable number of exploded Volkswagen Corrados**.
+
+While ChatGPT contributed extensively to the development process, it also occasionally demonstrated a remarkable ability to turn perfectly functional vehicles into abstract art.
+
+*Built with curiosity, persistence, a healthy disregard for sleep, and the shared determination to make a 2012 racing game do things it was never supposed to do.*
