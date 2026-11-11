@@ -1,4 +1,4 @@
-# FH1-Carbin Tools
+# FH1-Carbin Tools v5.0.4
 
 **FH1-Carbin Tools** is a Blender 3.6 add-on designed to import, modify and export vehicle models from **Forza Horizon (2012)**.
 
